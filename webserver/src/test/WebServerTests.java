@@ -30,7 +30,7 @@ public class WebServerTests {
     }
 
     @Test
-    public void correctServerStartStatusChange() throws IOException {
+    public void correctServerStartStatusChange(){
         if (WebServer.getInstance().getServerState().equals("Stopped")) {
             new Thread(
                     () -> WebServer.getInstance().startServer()
@@ -40,19 +40,19 @@ public class WebServerTests {
             WebServer.getInstance().endServerMaintenance();
         }
 
-        while (WebServer.getInstance().getServerState() != "Running" && WebServer.getInstance().getServerState() != "Maintenance"); //Wait for the server to start
+        while (WebServer.getInstance().getServerState().equals("Stopped")); //Wait for the server to start
         Assert.assertEquals("Running", WebServer.getInstance().getServerState());
     }
 
     @Test
-    public void correctServerMaintenanceStatusChange() throws IOException {
+    public void correctServerMaintenanceStatusChange(){
         if (WebServer.getInstance().getServerState().equals("Stopped")) {
             new Thread(
                     () -> WebServer.getInstance().startServer()
             ).start();
         }
 
-        while (WebServer.getInstance().getServerState() != "Running" && WebServer.getInstance().getServerState() != "Maintenance"); //Wait for the server to start
+        while (WebServer.getInstance().getServerState().equals("Stopped")); //Wait for the server to start
         WebServer.getInstance().startServerMaintenance(); //Set server State to Maintenance
 
         Assert.assertEquals("Maintenance", WebServer.getInstance().getServerState());
@@ -94,7 +94,7 @@ public class WebServerTests {
     }
 
     @Test
-    public void maintenanceResponeForRequestsTest() {
+    public void maintenanceResponseForRequestsTest() {
         try {
             if (WebServer.getInstance().getServerState().equals("Stopped")) {
                 new Thread(
@@ -102,7 +102,7 @@ public class WebServerTests {
                 ).start();
             }
 
-            while (WebServer.getInstance().getServerState() != "Running"); //Wait for the server to start
+            while (WebServer.getInstance().getServerState().equals("Stopped")); //Wait for the server to start
             WebServer.getInstance().startServerMaintenance(); //Set server State to Maintenance
 
             URL url = new URL("http://localhost:8080");
@@ -113,7 +113,7 @@ public class WebServerTests {
             Assert.assertTrue(httpConn.getResponseCode() > 0); //Test if connection to the server is possible
 
             String filePath = HtmlRenderer.getInstance().renderHtmlPage("GET /random.html", new ByteArrayOutputStream());
-            Assert.assertTrue(filePath.equals("maintenance")); //Test if no matter the request, the maintenance page is displayed
+            Assert.assertEquals(filePath, "maintenance"); //Test if no matter the request, the maintenance page is displayed
         } catch (IOException e) {
             Assert.fail();
         }

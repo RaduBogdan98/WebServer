@@ -4,7 +4,6 @@ import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import webserver.HtmlRenderer;
-import webserver.WebServer;
 
 import java.io.ByteArrayOutputStream;
 
@@ -17,7 +16,7 @@ public class HtmlRendererTest {
     @Test
     public void nullRequestTest(){
         String filePath = HtmlRenderer.getInstance().renderHtmlPage(null, null);
-        Assert.assertEquals(null, filePath);
+        Assert.assertNull(filePath);
     }
 
     @Test(expected = Exception.class)
@@ -69,7 +68,6 @@ public class HtmlRendererTest {
     public void inexistentPageRequestTest(){
         try {
             ByteArrayOutputStream stream = new ByteArrayOutputStream();
-            String filePath = HtmlRenderer.getInstance().renderHtmlPage("GET /random.html", stream);
             Assert.assertTrue(stream.toString().contains("404"));
         } catch (Exception e) {
             System.out.println(e.getMessage());

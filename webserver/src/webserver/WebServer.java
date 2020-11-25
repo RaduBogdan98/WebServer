@@ -4,35 +4,35 @@ import java.net.*;
 import java.io.*;
 
 public class WebServer extends Thread {
+    //region Fields
+    private static WebServer instance;
+
     protected Socket clientSocket;
     private int portNumber;
     private ServerSocket serverSocket;
     private String serverState;
+    //endregion
 
-    private static WebServer instance;
+    //region Constructor
+    private WebServer(Socket clientSoc) {
+        clientSocket = clientSoc;
+    }
 
+    private WebServer() {
+        serverState = "Stopped";
+    }
+    //endregion
+
+    //region Methods
     public static WebServer getInstance() {
         if (instance == null) instance = new WebServer();
 
         return instance;
     }
 
-    public void stopServer() throws IOException {
-        serverState = "Stopped";
-        serverSocket.close();
-    }
-
-    public void startServerMaintenance() {
-        serverState = "Maintenance";
-    }
-
-    public void endServerMaintenance() {
-        serverState = "Running";
-    }
-
+    //region Server State Changers
     public void startServer() {
         serverState = "Running";
-        serverSocket = null;
 
         try {
             serverSocket = new ServerSocket(portNumber);
@@ -54,7 +54,9 @@ public class WebServer extends Thread {
             System.exit(1);
         } finally {
             try {
-                serverSocket.close();
+                if (serverSocket != null) {
+                    serverSocket.close();
+                }
             } catch (IOException e) {
                 System.err.println("Could not close port: 10008.");
                 System.exit(1);
@@ -62,14 +64,21 @@ public class WebServer extends Thread {
         }
     }
 
-    private WebServer(Socket clientSoc) {
-        clientSocket = clientSoc;
-    }
-
-    private WebServer() {
+    public void stopServer() throws IOException {
         serverState = "Stopped";
+        serverSocket.close();
     }
 
+    public void startServerMaintenance() {
+        serverState = "Maintenance";
+    }
+
+    public void endServerMaintenance() {
+        serverState = "Running";
+    }
+    //endregion
+
+    //region Thread Run Method
     public void run() {
         System.out.println("New Communication Thread Started");
 
@@ -94,7 +103,9 @@ public class WebServer extends Thread {
             System.exit(1);
         }
     }
+    //endregion
 
+    //region Getters and Setters
     public void setPortNumber(int portNumber) {
         this.portNumber = portNumber;
     }
@@ -102,4 +113,7 @@ public class WebServer extends Thread {
     public String getServerState() {
         return serverState;
     }
+    //endregion
+
+    //endregion
 }

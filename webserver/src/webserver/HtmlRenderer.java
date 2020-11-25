@@ -3,17 +3,17 @@ package webserver;
 import java.io.*;
 
 public class HtmlRenderer {
+    //region Fields
     private String maintenancePageLocation;
     private String rootPageLocation;
     private static HtmlRenderer instance;
+    //endregion
 
     public static HtmlRenderer getInstance() {
         if (instance == null) instance = new HtmlRenderer();
 
         return instance;
     }
-
-    private HtmlRenderer() { }
 
     public String renderHtmlPage(String request, OutputStream clientOutputStream) {
         if (request != null) {
@@ -65,6 +65,7 @@ public class HtmlRenderer {
         return null;
     }
 
+    //region Setters
     public void setRootPageLocation(String rootPageLocation) {
         this.rootPageLocation = rootPageLocation;
     }
@@ -72,4 +73,5 @@ public class HtmlRenderer {
     public void setMaintenancePageLocation(String maintenancePageLocation) {
         this.maintenancePageLocation = maintenancePageLocation;
     }
+    //endregion
 }

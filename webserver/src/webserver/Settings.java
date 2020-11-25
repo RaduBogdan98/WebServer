@@ -44,10 +44,8 @@ public class Settings implements Serializable {
             file.close();
 
             return settings;
-        } catch (IOException e) {
+        } catch (Exception e) {
             System.out.println(e.getMessage());
-        } catch (ClassNotFoundException e) {
-            System.out.println(e.getException());
         }
 
         return null;

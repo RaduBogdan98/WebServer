@@ -4,28 +4,18 @@ import javax.swing.*;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
-import java.awt.font.FontRenderContext;
-import java.awt.font.GlyphVector;
-import java.awt.geom.AffineTransform;
-import java.awt.geom.Ellipse2D;
-import java.awt.image.BufferedImage;
-import java.awt.image.BufferedImageOp;
-import java.awt.image.ImageObserver;
-import java.awt.image.RenderedImage;
-import java.awt.image.renderable.RenderableImage;
 import java.io.File;
 import java.io.IOException;
-import java.text.AttributedCharacterIterator;
-import java.util.Map;
+import java.net.InetAddress;
+import java.net.UnknownHostException;
 
 public class ServerGUI {
+    //region Fields
     private Settings settings;
 
-    //region GUI Members
+    //region GUI Member Fields
     private JButton statusChangeButton;
     private JCheckBox maintenanceModeCheck;
     private JLabel serverStatusLabel;
@@ -40,6 +30,7 @@ public class ServerGUI {
     private JButton browseMaintenanceDirectory;
     //endregion
 
+    //endregion
 
     public ServerGUI(Settings settings) {
         this.settings = settings;
@@ -83,31 +74,30 @@ public class ServerGUI {
         frame.setVisible(true);
     }
 
+    //region Main Panel Areas
     private JPanel createControlArea() {
         JPanel controlPanel = new JPanel();
         controlPanel.setBorder(BorderFactory.createTitledBorder("Server Control"));
         controlPanel.setLayout(new BoxLayout(controlPanel, BoxLayout.Y_AXIS));
 
         statusChangeButton = new JButton("Start Server");
-        statusChangeButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                if (statusChangeButton.getText().equals("Start Server")) {
-                    startServer();
-                } else {
-                    stopServer();
-                }
-            }
-        });
+        statusChangeButton.addActionListener(
+                (event) ->
+                {
+                    if (statusChangeButton.getText().equals("Start Server")) {
+                        startServer();
+                    } else {
+                        stopServer();
+                    }
+                });
 
-        maintenanceModeCheck = new JCheckBox("Switch To Maintenance");
+        maintenanceModeCheck = new
+
+                JCheckBox("Switch To Maintenance");
         maintenanceModeCheck.setEnabled(false);
-        maintenanceModeCheck.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                onMaintenanceCheckStatusChange();
-            }
-        });
+        maintenanceModeCheck.addActionListener((event) ->
+
+                onMaintenanceCheckStatusChange());
 
         controlPanel.add(statusChangeButton);
         controlPanel.add(maintenanceModeCheck);
@@ -181,12 +171,11 @@ public class ServerGUI {
                 onChange();
             }
 
-            private void onChange(){
-                if(rootDirectoryRectangle!=null){
-                    if(rootDirectoryAddress.getText()!=null && new File(rootDirectoryAddress.getText()).isDirectory()){
+            private void onChange() {
+                if (rootDirectoryRectangle != null) {
+                    if (rootDirectoryAddress.getText() != null && new File(rootDirectoryAddress.getText()).isDirectory()) {
                         rootDirectoryRectangle.setBackground(Color.GREEN);
-                    }
-                    else{
+                    } else {
                         rootDirectoryRectangle.setBackground(Color.RED);
                     }
                 }
@@ -194,17 +183,12 @@ public class ServerGUI {
         });
 
         browseRootDirectory = new JButton("...");
-        browseRootDirectory.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                selectLocation(rootDirectoryAddress);
-            }
-        });
+        browseRootDirectory.addActionListener((event) -> selectLocation(rootDirectoryAddress));
+
         rootDirectoryRectangle = new JPanel();
-        if(rootDirectoryAddress.getText()!=null && new File(rootDirectoryAddress.getText()).isDirectory()){
+        if (rootDirectoryAddress.getText() != null && new File(rootDirectoryAddress.getText()).isDirectory()) {
             rootDirectoryRectangle.setBackground(Color.GREEN);
-        }
-        else{
+        } else {
             rootDirectoryRectangle.setBackground(Color.RED);
         }
         rootDirectoryRectangle.setSize(new Dimension(10, 10));
@@ -236,12 +220,11 @@ public class ServerGUI {
                 onChange();
             }
 
-            private void onChange(){
-                if(maintenanceDirectoryRectangle!=null){
-                    if(maintenanceDirectoryAddress.getText()!=null && new File(maintenanceDirectoryAddress.getText()).isDirectory()){
+            private void onChange() {
+                if (maintenanceDirectoryRectangle != null) {
+                    if (maintenanceDirectoryAddress.getText() != null && new File(maintenanceDirectoryAddress.getText()).isDirectory()) {
                         maintenanceDirectoryRectangle.setBackground(Color.GREEN);
-                    }
-                    else{
+                    } else {
                         maintenanceDirectoryRectangle.setBackground(Color.RED);
                     }
                 }
@@ -249,18 +232,12 @@ public class ServerGUI {
         });
 
         browseMaintenanceDirectory = new JButton("...");
-        browseMaintenanceDirectory.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                selectLocation(maintenanceDirectoryAddress);
-            }
-        });
+        browseMaintenanceDirectory.addActionListener((event) -> selectLocation(maintenanceDirectoryAddress));
 
         maintenanceDirectoryRectangle = new JPanel();
-        if(maintenanceDirectoryAddress.getText()!=null && new File(maintenanceDirectoryAddress.getText()).isDirectory()){
+        if (maintenanceDirectoryAddress.getText() != null && new File(maintenanceDirectoryAddress.getText()).isDirectory()) {
             maintenanceDirectoryRectangle.setBackground(Color.GREEN);
-        }
-        else{
+        } else {
             maintenanceDirectoryRectangle.setBackground(Color.RED);
         }
         maintenanceDirectoryRectangle.setSize(new Dimension(10, 10));
@@ -276,7 +253,9 @@ public class ServerGUI {
 
         return configPanel;
     }
+    //endregion
 
+    //region Action Listeners
     private void selectLocation(JTextField textField) {
         JFileChooser fileChooser = new JFileChooser();
         fileChooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
@@ -286,7 +265,7 @@ public class ServerGUI {
         }
     }
 
-    private void startServer() {
+    private void startServer(){
         if (!serverPort.getText().isEmpty() && !rootDirectoryAddress.getText().isEmpty()) {
             WebServer.getInstance().setPortNumber(Integer.parseInt(serverPort.getText()));
             HtmlRenderer.getInstance().setRootPageLocation(rootDirectoryAddress.getText());
@@ -297,6 +276,13 @@ public class ServerGUI {
             statusChangeButton.setText("Stop Server");
             serverStatusLabel.setText("running");
             serverPortLabel.setText(serverPort.getText());
+
+            try{
+                serverAddressLabel.setText(InetAddress.getLocalHost().getHostAddress());
+            }
+            catch (UnknownHostException e){
+                e.printStackTrace();
+            }
 
             serverPort.setEnabled(false);
             rootDirectoryAddress.setEnabled(false);
@@ -318,6 +304,7 @@ public class ServerGUI {
         statusChangeButton.setText("Start Server");
         serverStatusLabel.setText("not running");
         serverPortLabel.setText("not running");
+        serverAddressLabel.setText("not running");
 
         serverPort.setEnabled(true);
         rootDirectoryAddress.setEnabled(true);
@@ -345,4 +332,5 @@ public class ServerGUI {
             browseRootDirectory.setEnabled(false);
         }
     }
+    //endregion
 }
