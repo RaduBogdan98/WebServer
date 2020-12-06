@@ -73,7 +73,7 @@ public class WebServerTests {
     }
 
     @Test
-    public void connectionWorkingOnStoppedRunningTest() {
+    public void connectionWorkingOnRunningServerTest() {
         try {
             if (WebServer.getInstance().getServerState().equals("Stopped")) {
                 new Thread(
