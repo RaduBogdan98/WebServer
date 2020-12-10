@@ -1,0 +1,1157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 15">
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="date" type="D" value="44175.856534456"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;} th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;Your test was self-healed automatically! The mapping criteria for the above object was replaced with criteria of a similar object found during runtime. &lt;/p&gt;&lt;p&gt;&lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;java.&amp;#8203;Frame.&amp;#8203;RootPane.&amp;#8203;null_layeredPane.&amp;#8203;null_contentPane.&amp;#8203;Panel.&amp;#8203;Panel.&amp;#8203;Panel.&amp;#8203;&lt;a href=&quot;namemapping://{7C95F195-ED17-4CCF-A7CA-E8196A05117B}.{A59FA940-FC7A-40D2-877C-CFFCB32C9F91}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;Button&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;A similar object has been found &amp;ndash; see the Picture tab.&lt;/p&gt;&lt;table style=&quot;margin-top: 12px;&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Property&lt;/th&gt;&lt;th&gt;Mapping Value&lt;/th&gt;&lt;th&gt;Found&lt;/th&gt;&lt;th&gt;Action&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody style=&quot;background-color: #f0f0f0;&quot;&gt;&lt;tr&gt;&lt;td&gt;JavaFullClassName&lt;/td&gt;&lt;td&gt;javax.swing.JButton&lt;/td&gt;&lt;td&gt;javax.swing.JButton&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;AWTComponentAccessibleName&lt;/td&gt;&lt;td&gt;Start Server&lt;/td&gt;&lt;td&gt;Stop Server&lt;/td&gt;&lt;td&gt;Update&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;AWTComponentIndex&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;autofixnamemapping://54Wh5r2zAQAEAHJvb3QKAAIAbm0BACQAQTU5RkE5NDB4RkM3QXg0MEQyeDg3N0N4Q0ZGQ0IzMkM5&#xA;RjkxAQBiAAByAAQAdHlwZQEACwBSZWNvZ25pdGlvbgcAcHJvamVjdAEAJAA3Qzk1RjE5NXhFRDE3&#xA;eDRDQ0Z4QTdDQXhFODE5NkEwNTExN0IBAGwAAMS8AAYAY29uZmlnAQAVAERlZmF1bHQgQ29uZmln&#xA;dXJhdGlvbgEAcgAAxqEACQBwcm9wY291bnQAAAMABwBwaWNmaWxlAQAqAHs5NzJFQ0JCMi1ERUVG&#xA;LTRCQUUtOEFEOC0yNTNENzNFNzQ1OUF9LnBuZwEAdAAAWAAEAAsAZm91bmR2YWx1ZXMDAAEAMgEA&#xA;MAAwMzAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDABADEBAC0A&#xA;QDUzMDA3NDAwNkYwMDcwMDAyMDAwNTMwMDY1MDA3MjAwNzYwMDY1MDA3MjAwAQAwAQBNAEA2QTAw&#xA;NjEwMDc2MDA2MTAwNzgwMDJFMDA3MzAwNzcwMDY5MDA2RTAwNjcwMDJFMDA0QTAwNDIwMDc1MDA3&#xA;NDAwNzQwMDZGMDA2RTAwAAAFAG5hbWVzAwABADIBABEAQVdUQ29tcG9uZW50SW5kZXgBADEBABoA&#xA;QVdUQ29tcG9uZW50QWNjZXNzaWJsZU5hbWUBADABABEASmF2YUZ1bGxDbGFzc05hbWUAAAYAdmFs&#xA;dWVzAwABADIBADAAMDMwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAw&#xA;MDAwAQAxAQAxAEA1MzAwNzQwMDYxMDA3MjAwNzQwMDIwMDA1MzAwNjUwMDcyMDA3NjAwNjUwMDcy&#xA;MDABADABAE0AQDZBMDA2MTAwNzYwMDYxMDA3ODAwMkUwMDczMDA3NzAwNjkwMDZFMDA2NzAwMkUw&#xA;MDRBMDA0MjAwNzUwMDc0MDA3NDAwNkYwMDZFMDAAAAcAbWF0Y2hlZAMAAQAyAADvv7/nv78BADEA&#xA;AAEAAQAwAADvv7/nv78AAA==&quot;&gt;Accept Intelligent Fix&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;We replaced the missing object automatically during the runtime, but did not update its recognition criteria.&lt;/li&gt;&lt;li&gt;To update the recognition criteria in the Name Mapping repository, click Accept Intelligent Fix.&lt;/li&gt;&lt;li&gt;To cancel automatic replacement of missing objects during the runtime, disable the &lt;a href=&quot;aqa-help://2196&quot;&gt;Enable Self-Healing mode&lt;/a&gt; option.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;aqa-help://2220&quot;&gt;Learn more&lt;/a&gt; about possible causes of the issue.&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="message" type="S" value="The &quot;Button&quot; object was replaced with a similar object."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="picture" type="S" value="Picture2.png"/>
+		</Node>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="240"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="tcvi16046937787212.png"/>
+					<Prp name="object right" type="I" value="495"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object name" type="S" value="Aliases.java.Dialog.RootPane.null_layeredPane.null_contentPane.FileChooser.FilePane.Panel.ScrollPane.Viewport.FilePane_4"/>
+					<Prp name="click point y" type="I" value="130"/>
+					<Prp name="datetime" type="D" value="44175.7724537037"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="80"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="21"/>
+					<Prp name="object top" type="I" value="82"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="240"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage6.png"/>
+					<Prp name="object right" type="I" value="495"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object name" type="S" value="Aliases.java.Dialog.RootPane.null_layeredPane.null_contentPane.FileChooser.FilePane.Panel.ScrollPane.Viewport.FilePane_4"/>
+					<Prp name="click point y" type="I" value="130"/>
+					<Prp name="datetime" type="D" value="44175.7729964931"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="80"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="21"/>
+					<Prp name="object top" type="I" value="82"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage6_Dif.png"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="44175.8563333796"/>
+			<Prp name="remarks" type="S" value="A click at point (59, 8) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.java.Dialog.RootPane.null_layeredPane.null_contentPane.FileChooser.FilePane.Panel.ScrollPane.Viewport.FilePane_4&#xA;(Sys.Process(&quot;java&quot;).SwingObject(&quot;JDialog&quot;, &quot;Open&quot;, -1, 1).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;JFileChooser&quot;, &quot;&quot;, 0).SwingObject(&quot;FilePane&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JScrollPane&quot;, &quot;&quot;, 0).SwingObject(&quot;JViewport&quot;, &quot;&quot;, 0).SwingObject(&quot;FilePane$4&quot;, &quot;Files List&quot;, 0))"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The list box item 'Proiect' was double-clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 10">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="240"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="tcvi16053609787220.png"/>
+					<Prp name="object right" type="I" value="495"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object name" type="S" value="Aliases.java.Dialog.RootPane.null_layeredPane.null_contentPane.FileChooser.FilePane.Panel.ScrollPane.Viewport.FilePane_4"/>
+					<Prp name="click point y" type="I" value="169"/>
+					<Prp name="datetime" type="D" value="44175.7725231481"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="77"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="21"/>
+					<Prp name="object top" type="I" value="82"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="240"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage10.png"/>
+					<Prp name="object right" type="I" value="495"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object name" type="S" value="Aliases.java.Dialog.RootPane.null_layeredPane.null_contentPane.FileChooser.FilePane.Panel.ScrollPane.Viewport.FilePane_4"/>
+					<Prp name="click point y" type="I" value="169"/>
+					<Prp name="datetime" type="D" value="44175.7730160185"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="77"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="21"/>
+					<Prp name="object top" type="I" value="82"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage10_Dif.png"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="44175.8563509259"/>
+			<Prp name="remarks" type="S" value="A click at point (56, 7) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.java.Dialog.RootPane.null_layeredPane.null_contentPane.FileChooser.FilePane.Panel.ScrollPane.Viewport.FilePane_4&#xA;(Sys.Process(&quot;java&quot;).SwingObject(&quot;JDialog&quot;, &quot;Open&quot;, -1, 1).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;JFileChooser&quot;, &quot;&quot;, 0).SwingObject(&quot;FilePane&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JScrollPane&quot;, &quot;&quot;, 0).SwingObject(&quot;JViewport&quot;, &quot;&quot;, 0).SwingObject(&quot;FilePane$4&quot;, &quot;Files List&quot;, 0))"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The list box item 'webserver' was double-clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 13">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="346"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="tcvi16059656787223.png"/>
+					<Prp name="object right" type="I" value="419"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="13"/>
+					<Prp name="object name" type="S" value="Aliases.java.Dialog.RootPane.null_layeredPane.null_contentPane.FileChooser.Panel2.Panel.Button"/>
+					<Prp name="click point y" type="I" value="334"/>
+					<Prp name="datetime" type="D" value="44175.7725925926"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="362"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="346"/>
+					<Prp name="object top" type="I" value="320"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="346"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage13.png"/>
+					<Prp name="object right" type="I" value="419"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="13"/>
+					<Prp name="object name" type="S" value="Aliases.java.Dialog.RootPane.null_layeredPane.null_contentPane.FileChooser.Panel2.Panel.Button"/>
+					<Prp name="click point y" type="I" value="333"/>
+					<Prp name="datetime" type="D" value="44175.7730259143"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="382"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="346"/>
+					<Prp name="object top" type="I" value="320"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage13_Dif.png"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="13"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="44175.8563604514"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.java.Dialog.RootPane.null_layeredPane.null_contentPane.FileChooser.Panel2.Panel.Button&#xA;(Sys.Process(&quot;java&quot;).SwingObject(&quot;JDialog&quot;, &quot;Open&quot;, -1, 1).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;JFileChooser&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 2).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 2).SwingObject(&quot;JButton&quot;, &quot;Open&quot;, 0))"/>
+			<Prp name="line no" type="I" value="13"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 12">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="240"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="tcvi16058656787222.png"/>
+					<Prp name="object right" type="I" value="495"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="object name" type="S" value="Aliases.java.Dialog.RootPane.null_layeredPane.null_contentPane.FileChooser.FilePane.Panel.ScrollPane.Viewport.FilePane_4"/>
+					<Prp name="click point y" type="I" value="110"/>
+					<Prp name="datetime" type="D" value="44175.7725810185"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="92"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="21"/>
+					<Prp name="object top" type="I" value="82"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="240"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage12.png"/>
+					<Prp name="object right" type="I" value="495"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="object name" type="S" value="Aliases.java.Dialog.RootPane.null_layeredPane.null_contentPane.FileChooser.FilePane.Panel.ScrollPane.Viewport.FilePane_4"/>
+					<Prp name="click point y" type="I" value="110"/>
+					<Prp name="datetime" type="D" value="44175.7730226273"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="92"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="21"/>
+					<Prp name="object top" type="I" value="82"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage12_Dif.png"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="44175.8563576157"/>
+			<Prp name="remarks" type="S" value="A click at point (71, 8) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.java.Dialog.RootPane.null_layeredPane.null_contentPane.FileChooser.FilePane.Panel.ScrollPane.Viewport.FilePane_4&#xA;(Sys.Process(&quot;java&quot;).SwingObject(&quot;JDialog&quot;, &quot;Open&quot;, -1, 1).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;JFileChooser&quot;, &quot;&quot;, 0).SwingObject(&quot;FilePane&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JScrollPane&quot;, &quot;&quot;, 0).SwingObject(&quot;JViewport&quot;, &quot;&quot;, 0).SwingObject(&quot;FilePane$4&quot;, &quot;Files List&quot;, 0))"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The list box item 'maintenance' was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 17">
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="date" type="D" value="44175.8565398495"/>
+			<Prp name="remarks" type="S" value="&lt;h3&gt;Result&lt;/h3&gt;&lt;span&gt;The property checkpoint &lt;img style = &quot;width: 14px; height: 14px; vertical-align: text-bottom; margin: 2px;&quot; src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH4wIUBiMun01WOAAAAlZJREFUWMPdly1s20AUx/+ODCptij0FGERrKhsEbF2mTQqoWsk8JIXugAOTkRiabTAwJWvZErAGriTcUqKCkq1KBwJcpZ0KDKr5Kk0qsOShWf64+CNzFWnH7Du/3//ee773jnFdF+scBax5sGkXEscWT6yBObENTImBe4cE5ossh11Oxh4v40BoSRzLX6WxyySFgDi2qJuaObKGmXamCCp6Uj9RSKyA8d2p25m3IrtNO4osh6PqAI1Sk8ksQDc19/j2MJc4t8td9KQ+kzoJ84QDwPHtIXRTc1N5YHx36r77sf8oGf/lxddIOAICiGOL2+db5qoxT5MTs/oikJiFkOsfDQ4A9w6BbmomNQeIY4tZf7W4neqVD3j5pBaZG1lDEMcWIwJOrIGZF3z8yoBe+YhxzaCK8LM8ARPbyA2+/fQ1AIBjeYxrBoosF1jnZ3kCpmS5ANoukuBxw88q+BOEZnTy5humb7/jU/VzZjhxbDQu5Iht/3NsNfQbPRBaVBFJ8MvfF1TbNw8LN1bA841KxGhYxKpwANjc2GJiBfx8uEZn3oq8/yviX+DUk3DzjHdpeaAIKo6qg7Q9Qyp4keVws2MHPbDLydTFI2tI9cSq8DDLE7DHy0s/SBKR1e1+lhcC4thi5eyZmdTlhMORFQ4A1zu/vILkeYBj+StFUGM/DHtiFbgiqPBXw5XKsSKoeF/W0Jm3MsFp5XjtDUnkHGiUmky73M0d3i53qc0p9SDqSf1cRcQ1pWtvy2OLUaPUZGb1hZT0dyxL1Fl9IcXBU92M1n41++9vx38AoNJrUz8FYVwAAAAASUVORK5CYII=&quot;&gt;&lt;b&gt;passed&lt;/b&gt;: Aliases.java.Frame.RootP....Panel2.Panel.TextField.wText&lt;b&gt; equals (case-sensitive) &lt;/b&gt;&quot;D:\FACULTATE\Anul IV\VVS\Proiect\WebServer\we...&quot;.&lt;/span&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;div class=&quot;table-border full-width&quot;&gt;&lt;table class=&quot;table-borderless table-vertical&quot;&gt;&lt;tr&gt;&lt;th style=&quot;width: 16em;&quot;&gt;Object&lt;/th&gt;&lt;td&gt;&lt;a href='lnamemapping://{7C95F195-ED17-4CCF-A7CA-E8196A05117B}.{9E20A496-1304-439E-8BC5-91CA4C97591B}'&gt;Aliases.java.Frame.RootPane.null_layeredPane.null_contentPane.Panel.Panel2.Panel.TextField&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Property&lt;/th&gt;&lt;td&gt;wText&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Condition&lt;/th&gt;&lt;td&gt;equals (case-sensitive)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Actual value&lt;/th&gt;&lt;td&gt;&quot;D:\FACULTATE\Anul IV\VVS\Proiect\WebServer\webserver\src\maintenance&quot;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Expected value&lt;/th&gt;&lt;td&gt;&quot;D:\FACULTATE\Anul IV\VVS\Proiect\WebServer\webserver\src\maintenance&quot;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="message" type="S" value="The property checkpoint passed: wText equals (case-sensitive) &quot;D:\FACULTATE\Anul IV\VVS\Proiect\WebServer\we...&quot;."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="picture" type="S" value="Picture3.png"/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="240"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="tcvi1604240678726.png"/>
+					<Prp name="object right" type="I" value="495"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="object name" type="S" value="Aliases.java.Dialog.RootPane.null_layeredPane.null_contentPane.FileChooser.FilePane.Panel.ScrollPane.Viewport.FilePane_4"/>
+					<Prp name="click point y" type="I" value="94"/>
+					<Prp name="datetime" type="D" value="44175.7723958333"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="90"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="21"/>
+					<Prp name="object top" type="I" value="82"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="240"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="object right" type="I" value="495"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="object name" type="S" value="Aliases.java.Dialog.RootPane.null_layeredPane.null_contentPane.FileChooser.FilePane.Panel.ScrollPane.Viewport.FilePane_4"/>
+					<Prp name="click point y" type="I" value="94"/>
+					<Prp name="datetime" type="D" value="44175.7729787616"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="90"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="21"/>
+					<Prp name="object top" type="I" value="82"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage3_Dif.png"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="44175.8563162616"/>
+			<Prp name="remarks" type="S" value="A click at point (69, 12) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.java.Dialog.RootPane.null_layeredPane.null_contentPane.FileChooser.FilePane.Panel.ScrollPane.Viewport.FilePane_4&#xA;(Sys.Process(&quot;java&quot;).SwingObject(&quot;JDialog&quot;, &quot;Open&quot;, -1, 1).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;JFileChooser&quot;, &quot;&quot;, 0).SwingObject(&quot;FilePane&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JScrollPane&quot;, &quot;&quot;, 0).SwingObject(&quot;JViewport&quot;, &quot;&quot;, 0).SwingObject(&quot;FilePane$4&quot;, &quot;Files List&quot;, 0))"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The list box item 'FACULTATE' was double-clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 1">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="70"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="tcvi1603921878721.png"/>
+					<Prp name="object right" type="I" value="351"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="object name" type="S" value="Aliases.java.Dialog.RootPane.null_layeredPane.null_contentPane.FileChooser.Panel.MetalFileChooserUI_1.MetalComboBoxButton"/>
+					<Prp name="click point y" type="I" value="67"/>
+					<Prp name="datetime" type="D" value="44175.7723611111"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="339"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="331"/>
+					<Prp name="object top" type="I" value="43"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="70"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="object right" type="I" value="351"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="object name" type="S" value="Aliases.java.Dialog.RootPane.null_layeredPane.null_contentPane.FileChooser.Panel.MetalFileChooserUI_1.MetalComboBoxButton"/>
+					<Prp name="click point y" type="I" value="67"/>
+					<Prp name="datetime" type="D" value="44175.7729580208"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="339"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="331"/>
+					<Prp name="object top" type="I" value="43"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage1_Dif.png"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="44175.8562999306"/>
+			<Prp name="remarks" type="S" value="A click at point (8, 24) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.java.Dialog.RootPane.null_layeredPane.null_contentPane.FileChooser.Panel.MetalFileChooserUI_1.MetalComboBoxButton&#xA;(Sys.Process(&quot;java&quot;).SwingObject(&quot;JDialog&quot;, &quot;Open&quot;, -1, 1).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;JFileChooser&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;MetalFileChooserUI$1&quot;, &quot;Look In:&quot;, 0).SwingObject(&quot;MetalComboBoxButton&quot;, &quot;&quot;, 0))"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="221"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="tcvi1604031278724.png"/>
+					<Prp name="object right" type="I" value="333"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.java.Dialog.RootPane.null_layeredPane.Panel.ComboPopup_popup.ComboBox_scrollPane.Viewport.ComboBox_list"/>
+					<Prp name="click point y" type="I" value="113"/>
+					<Prp name="datetime" type="D" value="44175.7723726852"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="191"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="76"/>
+					<Prp name="object top" type="I" value="-161"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="221"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="object right" type="I" value="333"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="object name" type="S" value="Aliases.java.Dialog.RootPane.null_layeredPane.Panel.ComboPopup_popup.ComboBox_scrollPane.Viewport.ComboBox_list"/>
+					<Prp name="click point y" type="I" value="112"/>
+					<Prp name="datetime" type="D" value="44175.772973125"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="204"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="76"/>
+					<Prp name="object top" type="I" value="-161"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage2_Dif.png"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="44175.8563079051"/>
+			<Prp name="remarks" type="S" value="A click with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.java.Dialog.RootPane.null_layeredPane.Panel.ComboPopup_popup.ComboBox_scrollPane.Viewport.ComboBox_list&#xA;(Sys.Process(&quot;java&quot;).SwingObject(&quot;JDialog&quot;, &quot;Open&quot;, -1, 1).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;ComboPopup.popup&quot;).SwingObject(&quot;ComboBox.scrollPane&quot;).SwingObject(&quot;JViewport&quot;, &quot;&quot;, 0).SwingObject(&quot;ComboBox.list&quot;))"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The list box item 'Disc local (D:)' was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 9">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="240"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="tcvi16051531787218.png"/>
+					<Prp name="object right" type="I" value="495"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="object name" type="S" value="Aliases.java.Dialog.RootPane.null_layeredPane.null_contentPane.FileChooser.FilePane.Panel.ScrollPane.Viewport.FilePane_4"/>
+					<Prp name="click point y" type="I" value="173"/>
+					<Prp name="datetime" type="D" value="44175.7725"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="58"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="21"/>
+					<Prp name="object top" type="I" value="82"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="240"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage9.png"/>
+					<Prp name="object right" type="I" value="495"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="object name" type="S" value="Aliases.java.Dialog.RootPane.null_layeredPane.null_contentPane.FileChooser.FilePane.Panel.ScrollPane.Viewport.FilePane_4"/>
+					<Prp name="click point y" type="I" value="173"/>
+					<Prp name="datetime" type="D" value="44175.7730127431"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="58"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="21"/>
+					<Prp name="object top" type="I" value="82"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage9_Dif.png"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="44175.8563475116"/>
+			<Prp name="remarks" type="S" value="A click at point (37, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.java.Dialog.RootPane.null_layeredPane.null_contentPane.FileChooser.FilePane.Panel.ScrollPane.Viewport.FilePane_4&#xA;(Sys.Process(&quot;java&quot;).SwingObject(&quot;JDialog&quot;, &quot;Open&quot;, -1, 1).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;JFileChooser&quot;, &quot;&quot;, 0).SwingObject(&quot;FilePane&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JScrollPane&quot;, &quot;&quot;, 0).SwingObject(&quot;JViewport&quot;, &quot;&quot;, 0).SwingObject(&quot;FilePane$4&quot;, &quot;Files List&quot;, 0))"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The list box item 'src' was double-clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 14">
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="date" type="D" value="44175.8563638194"/>
+			<Prp name="remarks" type="S" value="&lt;h3&gt;Result&lt;/h3&gt;&lt;span&gt;The property checkpoint &lt;img style = &quot;width: 14px; height: 14px; vertical-align: text-bottom; margin: 2px;&quot; src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH4wIUBiMun01WOAAAAlZJREFUWMPdly1s20AUx/+ODCptij0FGERrKhsEbF2mTQqoWsk8JIXugAOTkRiabTAwJWvZErAGriTcUqKCkq1KBwJcpZ0KDKr5Kk0qsOShWf64+CNzFWnH7Du/3//ee773jnFdF+scBax5sGkXEscWT6yBObENTImBe4cE5ossh11Oxh4v40BoSRzLX6WxyySFgDi2qJuaObKGmXamCCp6Uj9RSKyA8d2p25m3IrtNO4osh6PqAI1Sk8ksQDc19/j2MJc4t8td9KQ+kzoJ84QDwPHtIXRTc1N5YHx36r77sf8oGf/lxddIOAICiGOL2+db5qoxT5MTs/oikJiFkOsfDQ4A9w6BbmomNQeIY4tZf7W4neqVD3j5pBaZG1lDEMcWIwJOrIGZF3z8yoBe+YhxzaCK8LM8ARPbyA2+/fQ1AIBjeYxrBoosF1jnZ3kCpmS5ANoukuBxw88q+BOEZnTy5humb7/jU/VzZjhxbDQu5Iht/3NsNfQbPRBaVBFJ8MvfF1TbNw8LN1bA841KxGhYxKpwANjc2GJiBfx8uEZn3oq8/yviX+DUk3DzjHdpeaAIKo6qg7Q9Qyp4keVws2MHPbDLydTFI2tI9cSq8DDLE7DHy0s/SBKR1e1+lhcC4thi5eyZmdTlhMORFQ4A1zu/vILkeYBj+StFUGM/DHtiFbgiqPBXw5XKsSKoeF/W0Jm3MsFp5XjtDUnkHGiUmky73M0d3i53qc0p9SDqSf1cRcQ1pWtvy2OLUaPUZGb1hZT0dyxL1Fl9IcXBU92M1n41++9vx38AoNJrUz8FYVwAAAAASUVORK5CYII=&quot;&gt;&lt;b&gt;passed&lt;/b&gt;: Aliases.java.Frame.RootP....Panel2.Panel.TextField.wText&lt;b&gt; equals (case-sensitive) &lt;/b&gt;&quot;D:\FACULTATE\Anul IV\VVS\Proiect\WebServer\we...&quot;.&lt;/span&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;div class=&quot;table-border full-width&quot;&gt;&lt;table class=&quot;table-borderless table-vertical&quot;&gt;&lt;tr&gt;&lt;th style=&quot;width: 16em;&quot;&gt;Object&lt;/th&gt;&lt;td&gt;&lt;a href='lnamemapping://{7C95F195-ED17-4CCF-A7CA-E8196A05117B}.{9E20A496-1304-439E-8BC5-91CA4C97591B}'&gt;Aliases.java.Frame.RootPane.null_layeredPane.null_contentPane.Panel.Panel2.Panel.TextField&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Property&lt;/th&gt;&lt;td&gt;wText&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Condition&lt;/th&gt;&lt;td&gt;equals (case-sensitive)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Actual value&lt;/th&gt;&lt;td&gt;&quot;D:\FACULTATE\Anul IV\VVS\Proiect\WebServer\webserver\src\maintenance&quot;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Expected value&lt;/th&gt;&lt;td&gt;&quot;D:\FACULTATE\Anul IV\VVS\Proiect\WebServer\webserver\src\maintenance&quot;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"/>
+			<Prp name="line no" type="I" value="14"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="message" type="S" value="The property checkpoint passed: wText equals (case-sensitive) &quot;D:\FACULTATE\Anul IV\VVS\Proiect\WebServer\we...&quot;."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+		</Node>
+		<Node name="message 16">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="114"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="tcvi16069515787224.png"/>
+					<Prp name="object right" type="I" value="432"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="15"/>
+					<Prp name="object name" type="S" value="Aliases.java.Frame.RootPane.null_layeredPane.null_contentPane.Panel.Panel.Panel.Button"/>
+					<Prp name="click point y" type="I" value="105"/>
+					<Prp name="datetime" type="D" value="44175.7727083333"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="400"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="329"/>
+					<Prp name="object top" type="I" value="88"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="114"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage14.png"/>
+					<Prp name="object right" type="I" value="417"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="15"/>
+					<Prp name="object name" type="S" value="Aliases.java.Frame.RootPane.null_layeredPane.null_contentPane.Panel.Panel.Panel.Button2"/>
+					<Prp name="click point y" type="I" value="101"/>
+					<Prp name="datetime" type="D" value="44175.7732021991"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="366"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="316"/>
+					<Prp name="object top" type="I" value="88"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage14_Dif.png"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="15"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="44175.8565368403"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.java.Frame.RootPane.null_layeredPane.null_contentPane.Panel.Panel.Panel.Button2&#xA;(Sys.Process(&quot;java&quot;).SwingObject(&quot;JFrame&quot;, &quot;VVS Web Server&quot;, 0).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;Server Control&quot;, 1).SwingObject(&quot;JButton&quot;, &quot;Stop Server&quot;, 0))"/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="240"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="tcvi1604412578728.png"/>
+					<Prp name="object right" type="I" value="495"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="object name" type="S" value="Aliases.java.Dialog.RootPane.null_layeredPane.null_contentPane.FileChooser.FilePane.Panel.ScrollPane.Viewport.FilePane_4"/>
+					<Prp name="click point y" type="I" value="146"/>
+					<Prp name="datetime" type="D" value="44175.7724189815"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="70"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="21"/>
+					<Prp name="object top" type="I" value="82"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="240"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="object right" type="I" value="495"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="object name" type="S" value="Aliases.java.Dialog.RootPane.null_layeredPane.null_contentPane.FileChooser.FilePane.Panel.ScrollPane.Viewport.FilePane_4"/>
+					<Prp name="click point y" type="I" value="146"/>
+					<Prp name="datetime" type="D" value="44175.7729848495"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="70"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="21"/>
+					<Prp name="object top" type="I" value="82"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage4_Dif.png"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="44175.8563222454"/>
+			<Prp name="remarks" type="S" value="A click at point (49, 4) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.java.Dialog.RootPane.null_layeredPane.null_contentPane.FileChooser.FilePane.Panel.ScrollPane.Viewport.FilePane_4&#xA;(Sys.Process(&quot;java&quot;).SwingObject(&quot;JDialog&quot;, &quot;Open&quot;, -1, 1).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;JFileChooser&quot;, &quot;&quot;, 0).SwingObject(&quot;FilePane&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JScrollPane&quot;, &quot;&quot;, 0).SwingObject(&quot;JViewport&quot;, &quot;&quot;, 0).SwingObject(&quot;FilePane$4&quot;, &quot;Files List&quot;, 0))"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The list box item 'Anul IV' was double-clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 0">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="339"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="tcvi1603654678720.png"/>
+					<Prp name="object right" type="I" value="497"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.java.Frame.RootPane.null_layeredPane.null_contentPane.Panel.Panel2.Panel.Button"/>
+					<Prp name="click point y" type="I" value="327"/>
+					<Prp name="datetime" type="D" value="44175.772337963"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="471"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="454"/>
+					<Prp name="object top" type="I" value="313"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="339"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="object right" type="I" value="497"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.java.Frame.RootPane.null_layeredPane.null_contentPane.Panel.Panel2.Panel.Button"/>
+					<Prp name="click point y" type="I" value="326"/>
+					<Prp name="datetime" type="D" value="44175.7729513657"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="475"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="454"/>
+					<Prp name="object top" type="I" value="313"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage0_Dif.png"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="0"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="44175.8562860301"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.java.Frame.RootPane.null_layeredPane.null_contentPane.Panel.Panel2.Panel.Button&#xA;(Sys.Process(&quot;java&quot;).SwingObject(&quot;JFrame&quot;, &quot;VVS Web Server&quot;, 0).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;Server Configuration&quot;, 1).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 2).SwingObject(&quot;JButton&quot;, &quot;...&quot;, 0))"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="240"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="tcvi16045343787210.png"/>
+					<Prp name="object right" type="I" value="495"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="object name" type="S" value="Aliases.java.Dialog.RootPane.null_layeredPane.null_contentPane.FileChooser.FilePane.Panel.ScrollPane.Viewport.FilePane_4"/>
+					<Prp name="click point y" type="I" value="191"/>
+					<Prp name="datetime" type="D" value="44175.7724305556"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="58"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="21"/>
+					<Prp name="object top" type="I" value="82"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="240"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="object right" type="I" value="495"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="object name" type="S" value="Aliases.java.Dialog.RootPane.null_layeredPane.null_contentPane.FileChooser.FilePane.Panel.ScrollPane.Viewport.FilePane_4"/>
+					<Prp name="click point y" type="I" value="191"/>
+					<Prp name="datetime" type="D" value="44175.7729906944"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="58"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="21"/>
+					<Prp name="object top" type="I" value="82"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage5_Dif.png"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="44175.8563278588"/>
+			<Prp name="remarks" type="S" value="A click at point (37, 9) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.java.Dialog.RootPane.null_layeredPane.null_contentPane.FileChooser.FilePane.Panel.ScrollPane.Viewport.FilePane_4&#xA;(Sys.Process(&quot;java&quot;).SwingObject(&quot;JDialog&quot;, &quot;Open&quot;, -1, 1).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;JFileChooser&quot;, &quot;&quot;, 0).SwingObject(&quot;FilePane&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JScrollPane&quot;, &quot;&quot;, 0).SwingObject(&quot;JViewport&quot;, &quot;&quot;, 0).SwingObject(&quot;FilePane$4&quot;, &quot;Files List&quot;, 0))"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The list box item 'VVS' was double-clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{7F13C201-BF0C-4CAA-A3D3-85572BA999C3}"/>
+		</Node>
+		<Node name="message 11">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="68"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="tcvi16057265787221.png"/>
+					<Prp name="object right" type="I" value="386"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object name" type="S" value="Aliases.java.Dialog.RootPane.null_layeredPane.null_contentPane.FileChooser.Panel.Panel.Button"/>
+					<Prp name="click point y" type="I" value="61"/>
+					<Prp name="datetime" type="D" value="44175.7725694444"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="372"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="362"/>
+					<Prp name="object top" type="I" value="44"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="68"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage11.png"/>
+					<Prp name="object right" type="I" value="386"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object name" type="S" value="Aliases.java.Dialog.RootPane.null_layeredPane.null_contentPane.FileChooser.Panel.Panel.Button"/>
+					<Prp name="click point y" type="I" value="56"/>
+					<Prp name="datetime" type="D" value="44175.7730197685"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="374"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="362"/>
+					<Prp name="object top" type="I" value="44"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage11_Dif.png"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="44175.8563545139"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.java.Dialog.RootPane.null_layeredPane.null_contentPane.FileChooser.Panel.Panel.Button&#xA;(Sys.Process(&quot;java&quot;).SwingObject(&quot;JDialog&quot;, &quot;Open&quot;, -1, 1).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;JFileChooser&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JButton&quot;, &quot;Up&quot;, 0))"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 8">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="240"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="tcvi16049000787216.png"/>
+					<Prp name="object right" type="I" value="495"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="object name" type="S" value="Aliases.java.Dialog.RootPane.null_layeredPane.null_contentPane.FileChooser.FilePane.Panel.ScrollPane.Viewport.FilePane_4"/>
+					<Prp name="click point y" type="I" value="135"/>
+					<Prp name="datetime" type="D" value="44175.7724768519"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="82"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="21"/>
+					<Prp name="object top" type="I" value="82"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="240"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage8.png"/>
+					<Prp name="object right" type="I" value="495"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="object name" type="S" value="Aliases.java.Dialog.RootPane.null_layeredPane.null_contentPane.FileChooser.FilePane.Panel.ScrollPane.Viewport.FilePane_4"/>
+					<Prp name="click point y" type="I" value="135"/>
+					<Prp name="datetime" type="D" value="44175.7730076505"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="82"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="21"/>
+					<Prp name="object top" type="I" value="82"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage8_Dif.png"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="44175.8563445486"/>
+			<Prp name="remarks" type="S" value="A click at point (61, 13) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.java.Dialog.RootPane.null_layeredPane.null_contentPane.FileChooser.FilePane.Panel.ScrollPane.Viewport.FilePane_4&#xA;(Sys.Process(&quot;java&quot;).SwingObject(&quot;JDialog&quot;, &quot;Open&quot;, -1, 1).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;JFileChooser&quot;, &quot;&quot;, 0).SwingObject(&quot;FilePane&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JScrollPane&quot;, &quot;&quot;, 0).SwingObject(&quot;JViewport&quot;, &quot;&quot;, 0).SwingObject(&quot;FilePane$4&quot;, &quot;Files List&quot;, 0))"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The list box item 'webserver' was double-clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="object bottom" type="I" value="240"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="tcvi16047968787214.png"/>
+					<Prp name="object right" type="I" value="495"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="object name" type="S" value="Aliases.java.Dialog.RootPane.null_layeredPane.null_contentPane.FileChooser.FilePane.Panel.ScrollPane.Viewport.FilePane_4"/>
+					<Prp name="click point y" type="I" value="91"/>
+					<Prp name="datetime" type="D" value="44175.7724652778"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="73"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="21"/>
+					<Prp name="object top" type="I" value="82"/>
+				</Node>
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="240"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage7.png"/>
+					<Prp name="object right" type="I" value="495"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="object name" type="S" value="Aliases.java.Dialog.RootPane.null_layeredPane.null_contentPane.FileChooser.FilePane.Panel.ScrollPane.Viewport.FilePane_4"/>
+					<Prp name="click point y" type="I" value="91"/>
+					<Prp name="datetime" type="D" value="44175.773001794"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="73"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="21"/>
+					<Prp name="object top" type="I" value="82"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage7_Dif.png"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="date" type="D" value="44175.8563387847"/>
+			<Prp name="remarks" type="S" value="A click at point (52, 9) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.java.Dialog.RootPane.null_layeredPane.null_contentPane.FileChooser.FilePane.Panel.ScrollPane.Viewport.FilePane_4&#xA;(Sys.Process(&quot;java&quot;).SwingObject(&quot;JDialog&quot;, &quot;Open&quot;, -1, 1).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;JFileChooser&quot;, &quot;&quot;, 0).SwingObject(&quot;FilePane&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JScrollPane&quot;, &quot;&quot;, 0).SwingObject(&quot;JViewport&quot;, &quot;&quot;, 0).SwingObject(&quot;FilePane$4&quot;, &quot;Files List&quot;, 0))"/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The list box item 'WebServer' was double-clicked with the left mouse button."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Prp name="status" type="I" value="1"/>
+	</Node>
+</Nodes>

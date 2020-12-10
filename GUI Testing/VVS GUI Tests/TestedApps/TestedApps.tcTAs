@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" version="1400" key="{ACA8C1C4-2957-4B4C-A756-A36C982D1762}" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}">
+	<config nodeName="TestedApps" />
+	<testData />
+	<data />
+	<children>
+		<child key="{CAAEBCE9-9D62-4C1E-8FF4-EA259574E528}">
+			<config nodeName="webserver" autorunOnRecording="True" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="True">
+				<runModeParams activeRunMode="Java">
+					<param name="Java" parameters="" workFolder="" jvmExecutable="C:\Program Files\Java\jre1.8.0_271\Bin\javaw.exe" runAsJar="True" jarFileName="D:\FACULTATE\Anul IV\VVS\Proiect\WebServer\webserver\classes\artifacts\webserver_jar\webserver.jar" entryPoint="" classPaths="D:\FACULTATE\Anul IV\VVS\Proiect\WebServer\webserver\classes\artifacts\webserver_jar\webserver.jar&#13;&#10;" applicationArguments="" options="" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+	</children>
+</Root>

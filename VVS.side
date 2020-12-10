@@ -1,0 +1,105 @@
+{
+  "id": "ec51a581-66b2-4194-ae75-7fb934093fcb",
+  "version": "2.0",
+  "name": "VVS",
+  "url": "http://localhost:8080",
+  "tests": [{
+    "id": "e5e159a9-b76f-484a-bef3-b1e4eb63361f",
+    "name": "Links functionality test",
+    "commands": [{
+      "id": "bcf98df0-553c-411c-bb63-ed8b0ac0bbf6",
+      "comment": "",
+      "command": "open",
+      "target": "/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d52924a6-d5e9-4786-96a1-aefe443607c4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1290x1055",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "16072f76-784f-4521-8077-963ffe9779b0",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Index",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "13514cfb-a581-4c5a-840b-f9b871e84b78",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Link To Second Page",
+      "targets": [
+        ["linkText=Link To Second Page", "linkText"],
+        ["css=a", "css:finder"],
+        ["xpath=//a[contains(text(),'Link To Second Page')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'second_page.html')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Link To Second Page')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b992c3e-2c7b-4d1c-9abf-f7d82460ec03",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Second Page",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ce4637e4-3678-44fe-8838-bb9848d9f7e3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Link To Third Page",
+      "targets": [
+        ["linkText=Link To Third Page", "linkText"],
+        ["css=a:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Link To Third Page')]", "xpath:link"],
+        ["xpath=//a[contains(@href, './directory/third_page.html')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Link To Third Page')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f66bf36a-0498-4181-9ca1-fe438084a3b2",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Third Page",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "216713da-02f3-47ff-b116-817c1558eb60",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Link To Index",
+      "targets": [
+        ["linkText=Link To Index", "linkText"],
+        ["css=a", "css:finder"],
+        ["xpath=//a[contains(text(),'Link To Index')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '../index.html')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Link To Index')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "afaa9cd7-d2db-40c7-b560-5fca893e986f",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Index",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ddf8a568-f705-4f5d-8865-c03b24e8bc1e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e5e159a9-b76f-484a-bef3-b1e4eb63361f"]
+  }],
+  "urls": ["http://localhost:8080/"],
+  "plugins": []
+}

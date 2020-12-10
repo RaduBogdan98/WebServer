@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{ACF6CAC6-71AE-45BF-AE5D-F175D056EBB0}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="javaw" Key="{07113B28-39D5-49DA-80CC-F4659E2110F4}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="javaw" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="dlgJavaVirtualMachineLauncher" Key="{B622B453-8CEC-44E5-89B1-796D6E0D758B}">
+								<Image FileName="1272936227" Left="0" Top="0" Right="423" Bottom="159" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Java Virtual Machine Launcher" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="btnOK" Key="{873B341F-9C95-4A69-A0CB-4902C717C4B7}">
+										<Image FileName="1272936227" Left="325" Top="119" Right="400" Bottom="142" />
+										<TypeInfo Item0="{14BA6B5D-DAF7-46A0-800B-473E481807A6}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="OK" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="javaw" Owner="{07113B28-39D5-49DA-80CC-F4659E2110F4}">
+			<Child Name="dlgJavaVirtualMachineLauncher" Owner="{B622B453-8CEC-44E5-89B1-796D6E0D758B}">
+				<Child Name="btnOK" Owner="{873B341F-9C95-4A69-A0CB-4902C717C4B7}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

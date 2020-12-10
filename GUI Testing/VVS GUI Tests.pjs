@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="14.0" key="{FFB44B02-FD84-41AB-938C-3C5C311644DD}">
+	<children>
+		<child name="VVS GUI Tests" key="{104BFC31-87FF-465B-A6A3-454140A50A20}" path="VVS GUI Tests\VVS GUI Tests.mds" />
+		<child name="GuiTests" key="{C8964EE0-BD72-4908-B47B-68014C255BB7}" path="GuiTests\GuiTests.mds" />
+	</children>
+	<testItems key="{B6DC3E0C-EAC4-4245-BD4C-6A378F6E5E14}">
+		<children>
+			<testItem key="{104BFC31-87FF-465B-A6A3-454140A50A20}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{C8964EE0-BD72-4908-B47B-68014C255BB7}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{1DEE5EC9-415E-4FE2-B803-DB08BC4D7910}" />
+	<analysis key="{32B66E7A-1E52-4D69-8FB5-1B45925E26B9}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+	<extender key="{1A3FC97E-9A66-4716-B166-35D10B4146E0}">
+		<CrossBrowserTesting Enable="False" />
+	</extender>
+</Root>

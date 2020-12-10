@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="image file name" type="S" value="tcvi12010265173563.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="325"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="125"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="473"/>
+					<Prp name="object top" type="I" value="114"/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="datetime" type="D" value="44175.7257291667"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.java.Frame.RootPane.null_layeredPane.null_contentPane.Panel.Panel.Panel.CheckBox"/>
+					<Prp name="object left" type="I" value="316"/>
+					<Prp name="object bottom" type="I" value="138"/>
+				</Node>
+			</Node>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="Aliases.java.Frame.RootPane.null_layeredPane.null_contentPane.Panel.Panel.Panel.CheckBox"/>
+			<Prp name="date" type="D" value="44175.8123355903"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="message" type="S" value="The action may be performed incorrectly, because the control is disabled."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="type" type="I" value="2"/>
+		</Node>
+		<Node name="item 1">
+			<Prp name="stacktext" type="S" value="Test1()"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="2"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 4">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;} th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;During the test run, one or several test objects were not found, and the test engine tried to “heal” your test by replacing missing objects with similar ones automatically. &lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;If a replacement object is selected incorrectly, this can affect further behavior of your test and cause errors.&lt;/li&gt;&lt;li&gt;Please check all the preceding ‘Object was replaced with a similar object’ messages in the test log.&lt;/li&gt;&lt;li&gt;If the found replacement object meets your requirements, make sure to click the &lt;b&gt;Accept Intelligent Fix&lt;/b&gt; button.The mapping criteria will be updated, and the message will no longer appear for that object.&lt;/li&gt;&lt;li&gt;If the found replacement object was not the correct one, please update its mapping criteria manually.&lt;/li&gt;&lt;li&gt;To cancel the automatic replacement of missing objects during the runtime, disable the &lt;a href=&quot;aqa-help://2196&quot;&gt;Enable Self-Healing mode&lt;/a&gt; option.&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="date" type="D" value="44175.812456875"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="message" type="S" value="There may be an error (or errors) caused by test self-healing."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="type" type="I" value="2"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 6">
+			<Prp name="picture" type="S" value="Picture3.png"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;The test run has stopped because --&lt;/p&gt;&lt;ul&gt;&lt;li&gt;An error message was posted to the log and&lt;/li&gt;&lt;li&gt;The &lt;a href=&quot;aqa-help://6090&quot;&gt;On error&lt;/a&gt; project property is set to &quot;Stop project&quot; or &quot;Stop current item&quot;.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;If you don't want the test to stop on errors, set this property (&lt;b&gt;Project Editor &amp;rArr; Properties &amp;rArr; Playback&lt;/b&gt;), to &quot;Continue running&quot; or change your test commands so that they do not post errors to the log automatically. For example, if a window or process was not found, use WaitWindow, WaitProcess or similar methods to get the needed object.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;aqa-help://2207&quot;&gt;Read More&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="date" type="D" value="44175.8124597338"/>
+			<Prp name="stack beginning" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="stack end" type="I" value="1"/>
+			<Prp name="message" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="type" type="I" value="3"/>
+		</Node>
+		<Node name="message 5">
+			<Prp name="picture" type="S" value="Picture2.png"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="&lt;h3&gt;Result&lt;/h3&gt;&lt;span&gt;The property checkpoint &lt;img style = &quot;width: 14px; height: 14px; vertical-align: text-bottom; margin: 2px;&quot; src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH4wIUBiQQEW3dVAAAAlZJREFUWMPdl09o03AUx79pxDFoUohUBs2MHjwM2bzodthOstvw0N5WsF4r631bdl5a7ynsPCHe2sPoTtWTO0y9OBEPHrQuBWGskKwgE8LPkyFJf7/80UrD3imQ/PL5/t57v/fejyOEYJKWwYTtWtwPHcvGudEmw6NjDN+8hWNf+N7zooDsyiKyy0u4US5yfE6M9V8uKgSOZcNUNTJ42U60M2m9CFlTI4WECrA6XdLb2BrZbVzjRQFKs4Hc2iqXWICp7pKzvf2xxDlfrUDWdrjYSThOOACc7e3DVHdJLAFWpztWuFeE1emS0BA4lo1P9x+Rv415nJy49+G1LzEzftdrTDgvClD0OmY2a0zAzGYNil4HLwr0E2VfwFQ1QvWAY9k4ufOQsOB3D15gen4OADAwWujVtn3fKHodUrkEAPj58TO+PH7CPD0LX9+5XnA9cG60medR1lQXDgBSuQRFr1PhADA9PwdZU5me8rLcSjg8OmYuuDztjxYaD9D7HLbGy7r57Kk/BCe3H4QmX3CXYUYLUTCkC9/ec74QRGV+r7aNgdH6Z3iQlagbRomIA/9jv773yUTb8fVbBS6xgKg8CJ6ORAMJq3gkTcI4IrwsV0B2ZTG0wtHgA6NFzQmpXAqtmF6WWweyy0uwDl9RF0zNFiITLiiQtsbLSk0p9nXD3sYWc/TiRQGypuLytI8fz3VmqKZmCzBVjQmX1otQmg0une2Yz4lQmo3/dvaVZgPBIXWkDuTWVrl8tTJ2eL5aoQ6nGXr73RmriLChNL1jeSouJqm4ml352/Fv5slV5IB2SZUAAAAASUVORK5CYII=&quot;&gt;&lt;b&gt;failed&lt;/b&gt;, because Aliases.java.Frame.RootP...el.Panel.Panel.CheckBox.Enabled&lt;b&gt; does not equal &lt;/b&gt;true.&lt;/span&gt;&lt;h3&gt;Details&lt;/h3&gt;&lt;div class=&quot;table-border full-width&quot;&gt;&lt;table class=&quot;table-borderless table-vertical&quot;&gt;&lt;tr&gt;&lt;th style=&quot;width: 16em;&quot;&gt;Object&lt;/th&gt;&lt;td&gt;&lt;a href='lnamemapping://{7C95F195-ED17-4CCF-A7CA-E8196A05117B}.{E728311B-1EA0-40E6-A0B2-171A1384F477}'&gt;Aliases.java.Frame.RootPane.null_layeredPane.null_contentPane.Panel.Panel.Panel.CheckBox&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Property&lt;/th&gt;&lt;td&gt;Enabled&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Condition&lt;/th&gt;&lt;td&gt;equals&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Actual value&lt;/th&gt;&lt;td&gt;false&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Expected value&lt;/th&gt;&lt;td&gt;true&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;p&gt;&lt;a href='checkpointupdate://1|{5C98BFCE-7811-41C7-9920-02A36C016464}|{C8964EE0-BD72-4908-B47B-68014C255BB7}|||{E4643CEA-FCAB-49D6-ACC7-DB7B2C9F9193}|2|11|ZgBhAGwAcwBlAA=='&gt;Update the property checkpoint&lt;/a&gt;&lt;/p&gt;"/>
+			<Prp name="date" type="D" value="44175.8124569097"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="stack end" type="I" value="0"/>
+			<Prp name="message" type="S" value="The property checkpoint failed, because Enabled does not equal true. See Details for additional information."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="type" type="I" value="3"/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="image file name" type="S" value="tcvi120102651735631.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="325"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="125"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="473"/>
+					<Prp name="object top" type="I" value="114"/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="datetime" type="D" value="44175.7257291667"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.java.Frame.RootPane.null_layeredPane.null_contentPane.Panel.Panel.Panel.CheckBox"/>
+					<Prp name="object left" type="I" value="316"/>
+					<Prp name="object bottom" type="I" value="138"/>
+				</Node>
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="338"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="125"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="486"/>
+					<Prp name="object top" type="I" value="114"/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="datetime" type="D" value="44175.7290026968"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.java.Frame.RootPane.null_layeredPane.null_contentPane.Panel.Panel.Panel.CheckBox"/>
+					<Prp name="object left" type="I" value="329"/>
+					<Prp name="object bottom" type="I" value="138"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="image file name" type="S" value="visImage1_Dif.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="A click at point (9, 11) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.java.Frame.RootPane.null_layeredPane.null_contentPane.Panel.Panel.Panel.CheckBox&#xA;(Sys.Process(&quot;java&quot;, 2).SwingObject(&quot;JFrame&quot;, &quot;VVS Web Server&quot;, 0).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;Server Control&quot;, 1).SwingObject(&quot;JCheckBox&quot;, &quot;Switch To Maintenance&quot;, 0))"/>
+			<Prp name="date" type="D" value="44175.8123365509"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="message" type="S" value="The window was clicked with the right mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="message 1">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="image file name" type="S" value="tcvi12006578173561.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="361"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="105"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="432"/>
+					<Prp name="object top" type="I" value="88"/>
+					<Prp name="line #" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="44175.7256828704"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.java.Frame.RootPane.null_layeredPane.null_contentPane.Panel.Panel.Panel.Button"/>
+					<Prp name="object left" type="I" value="329"/>
+					<Prp name="object bottom" type="I" value="114"/>
+				</Node>
+				<Node name="current">
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="366"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="101"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="417"/>
+					<Prp name="object top" type="I" value="88"/>
+					<Prp name="line #" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="44175.7289999074"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.java.Frame.RootPane.null_layeredPane.null_contentPane.Panel.Panel.Panel.SwingObject(&quot;JButton&quot;, &quot;Stop Server&quot;, 0)"/>
+					<Prp name="object left" type="I" value="316"/>
+					<Prp name="object bottom" type="I" value="114"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="image file name" type="S" value="visImage0_Dif.png"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="0"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+				</Node>
+			</Node>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.java.Frame.RootPane.null_layeredPane.null_contentPane.Panel.Panel.Panel.Button&#xA;(Sys.Process(&quot;java&quot;, 2).SwingObject(&quot;JFrame&quot;, &quot;VVS Web Server&quot;, 0).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;&quot;, 0).SwingObject(&quot;JPanel&quot;, &quot;Server Control&quot;, 1).SwingObject(&quot;JButton&quot;, &quot;Stop Server&quot;, 0))"/>
+			<Prp name="date" type="D" value="44175.8123345255"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+		</Node>
+		<Node name="item 0">
+			<Prp name="stacktext" type="S" value="Test1()"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="2"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{E4643CEA-FCAB-49D6-ACC7-DB7B2C9F9193}"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;} th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;Your test was self-healed automatically! The mapping criteria for the above object was replaced with criteria of a similar object found during runtime. &lt;/p&gt;&lt;p&gt;&lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;java.&amp;#8203;Frame.&amp;#8203;RootPane.&amp;#8203;null_layeredPane.&amp;#8203;null_contentPane.&amp;#8203;Panel.&amp;#8203;Panel.&amp;#8203;Panel.&amp;#8203;&lt;a href=&quot;namemapping://{7C95F195-ED17-4CCF-A7CA-E8196A05117B}.{A59FA940-FC7A-40D2-877C-CFFCB32C9F91}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;Button&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;A similar object has been found &amp;ndash; see the Picture tab.&lt;/p&gt;&lt;table style=&quot;margin-top: 12px;&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Property&lt;/th&gt;&lt;th&gt;Mapping Value&lt;/th&gt;&lt;th&gt;Found&lt;/th&gt;&lt;th&gt;Action&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody style=&quot;background-color: #f0f0f0;&quot;&gt;&lt;tr&gt;&lt;td&gt;JavaFullClassName&lt;/td&gt;&lt;td&gt;javax.swing.JButton&lt;/td&gt;&lt;td&gt;javax.swing.JButton&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;AWTComponentAccessibleName&lt;/td&gt;&lt;td&gt;Start Server&lt;/td&gt;&lt;td&gt;Stop Server&lt;/td&gt;&lt;td&gt;Update&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;AWTComponentIndex&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;autofixnamemapping://54Wh5r2zAQAEAHJvb3QKAAIAbm0BACQAQTU5RkE5NDB4RkM3QXg0MEQyeDg3N0N4Q0ZGQ0IzMkM5&#xA;RjkxAQBsAADEvAABAGIAAHIABAB0eXBlAQALAFJlY29nbml0aW9uBgBjb25maWcBABUARGVmYXVs&#xA;dCBDb25maWd1cmF0aW9uAQByAADGoQABAHQAAFgABwBwcm9qZWN0AQAkADdDOTVGMTk1eEVEMTd4&#xA;NENDRnhBN0NBeEU4MTk2QTA1MTE3QgkAcHJvcGNvdW50AAADAAcAcGljZmlsZQEAKgB7NjA5M0I1&#xA;NDAtNDhDMC00MTEzLTk2RjUtOUQwQzVBODIyRjQ2fS5wbmcEAAsAZm91bmR2YWx1ZXMDAAEAMQEA&#xA;LQBANTMwMDc0MDA2RjAwNzAwMDIwMDA1MzAwNjUwMDcyMDA3NjAwNjUwMDcyMDABADABAE0AQDZB&#xA;MDA2MTAwNzYwMDYxMDA3ODAwMkUwMDczMDA3NzAwNjkwMDZFMDA2NzAwMkUwMDRBMDA0MjAwNzUw&#xA;MDc0MDA3NDAwNkYwMDZFMDABADIBADAAMDMwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAw&#xA;MDAwMDAwMDAwMDAwMDAwAAAFAG5hbWVzAwABADEBABoAQVdUQ29tcG9uZW50QWNjZXNzaWJsZU5h&#xA;bWUBADABABEASmF2YUZ1bGxDbGFzc05hbWUBADIBABEAQVdUQ29tcG9uZW50SW5kZXgAAAYAdmFs&#xA;dWVzAwABADEBADEAQDUzMDA3NDAwNjEwMDcyMDA3NDAwMjAwMDUzMDA2NTAwNzIwMDc2MDA2NTAw&#xA;NzIwMAEAMAEATQBANkEwMDYxMDA3NjAwNjEwMDc4MDAyRTAwNzMwMDc3MDA2OTAwNkUwMDY3MDAy&#xA;RTAwNEEwMDQyMDA3NTAwNzQwMDc0MDA2RjAwNkUwMAEAMgEAMAAwMzAwMDAwMDAwMDAwMDAwMDAw&#xA;MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAAAAcAbWF0Y2hlZAMAAQAxAAABAAEAMAAA77+/&#xA;57+/AQAyAADvv7/nv78AAA==&quot;&gt;Accept Intelligent Fix&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;We replaced the missing object automatically during the runtime, but did not update its recognition criteria.&lt;/li&gt;&lt;li&gt;To update the recognition criteria in the Name Mapping repository, click Accept Intelligent Fix.&lt;/li&gt;&lt;li&gt;To cancel automatic replacement of missing objects during the runtime, disable the &lt;a href=&quot;aqa-help://2196&quot;&gt;Enable Self-Healing mode&lt;/a&gt; option.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;aqa-help://2220&quot;&gt;Learn more&lt;/a&gt; about possible causes of the issue.&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="date" type="D" value="44175.8123283912"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="message" type="S" value="The &quot;Button&quot; object was replaced with a similar object."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="type" type="I" value="2"/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>
